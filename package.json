@@ -1,0 +1,27 @@
+{
+  "name": "test_landing",
+  "version": "1.0.0",
+  "description": "my first gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "config": {
+  	"src": {
+  		"sass": "src/sass/main.sass"
+  	},
+  	"dist": {
+  		"css""dist/css"
+  		}
+  	},
+  "author": "Egor Frolov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "require-dir": "^1.1.0"
+  }
+}
